@@ -1,11 +1,5 @@
-# Copyright (c) HashiCorp, Inc.
-# SPDX-License-Identifier: MPL-2.0
-
-# Input variable definitions
-
 variable "aws_region" {
   description = "AWS region for all resources."
-
   type    = string
   default = "us-east-1"
 }
@@ -16,9 +10,9 @@ variable "db_password" {
 }
 
 variable "bucket_name" {
-  description = "eclectic-react-bucket"
-  type = string
-  default = "eclectic-react-bucket"
+  description = "S3 bucket name"
+  type        = string
+  default     = "eclectic-react-bucket"
 }
 
 variable "cloudfront_origin_path" {

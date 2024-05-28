@@ -2,3 +2,4 @@ node_modules
 react/dist
 .terraform
 .terraform.lock.hcl
+.zip
